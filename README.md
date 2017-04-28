@@ -1,8 +1,10 @@
 # Assignment2
 Deakin University _ Assignment 2
 
-Music Player App
+Project Name: Music Player App
 
-Type app with Swift 3 Xcode
+Team: Mike _ RyO
+
+Created app by Swift3 Xcode
 
 Build App for Assignment 2
