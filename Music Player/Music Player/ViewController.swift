@@ -4,7 +4,7 @@
 //
 //  Created by MIKE NGUYEN on 25/04/2017.
 //  Copyright © 2017 Deakin University. All rights reserved.
-//
+//  App for assignment 2
 
 import UIKit
 
