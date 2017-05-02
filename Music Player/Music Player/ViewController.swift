@@ -7,12 +7,23 @@
 //  App for assignment 2
 
 import UIKit
+import AVFoundation
+
 
 class ViewController: UIViewController {
+    
+    var avAudioPlayer: AVAudioPlayer!
+    var avPlayer:AVPlayer!
+    
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

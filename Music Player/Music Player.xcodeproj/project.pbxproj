@@ -14,6 +14,8 @@
 		A0ACC2D01EAF28CE006B99BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0ACC2CE1EAF28CE006B99BB /* LaunchScreen.storyboard */; };
 		A0ACC2DB1EAF28CE006B99BB /* Music_PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ACC2DA1EAF28CE006B99BB /* Music_PlayerTests.swift */; };
 		A0ACC2E61EAF28CE006B99BB /* Music_PlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ACC2E51EAF28CE006B99BB /* Music_PlayerUITests.swift */; };
+		A0F91C161EB834F200DBA04E /* alone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0F91C151EB834F200DBA04E /* alone.mp3 */; };
+		A0F91C181EB8352200DBA04E /* love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0F91C171EB8352200DBA04E /* love.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A0ACC2E11EAF28CE006B99BB /* Music PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Music PlayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0ACC2E51EAF28CE006B99BB /* Music_PlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music_PlayerUITests.swift; sourceTree = "<group>"; };
 		A0ACC2E71EAF28CE006B99BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0F91C151EB834F200DBA04E /* alone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alone.mp3; sourceTree = "<group>"; };
+		A0F91C171EB8352200DBA04E /* love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = love.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		A0ACC2C41EAF28CE006B99BB /* Music Player */ = {
 			isa = PBXGroup;
 			children = (
+				A0F91C141EB834CC00DBA04E /* Music */,
 				A0ACC2C51EAF28CE006B99BB /* AppDelegate.swift */,
 				A0ACC2C71EAF28CE006B99BB /* ViewController.swift */,
 				A0ACC2C91EAF28CE006B99BB /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				A0ACC2E71EAF28CE006B99BB /* Info.plist */,
 			);
 			path = "Music PlayerUITests";
+			sourceTree = "<group>";
+		};
+		A0F91C141EB834CC00DBA04E /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				A0F91C171EB8352200DBA04E /* love.mp3 */,
+				A0F91C151EB834F200DBA04E /* alone.mp3 */,
+			);
+			name = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +250,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0ACC2D01EAF28CE006B99BB /* LaunchScreen.storyboard in Resources */,
+				A0F91C181EB8352200DBA04E /* love.mp3 in Resources */,
 				A0ACC2CD1EAF28CE006B99BB /* Assets.xcassets in Resources */,
+				A0F91C161EB834F200DBA04E /* alone.mp3 in Resources */,
 				A0ACC2CB1EAF28CE006B99BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +530,7 @@
 				A0ACC2EC1EAF28CE006B99BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0ACC2ED1EAF28CE006B99BB /* Build configuration list for PBXNativeTarget "Music PlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +539,7 @@
 				A0ACC2EF1EAF28CE006B99BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0ACC2F01EAF28CE006B99BB /* Build configuration list for PBXNativeTarget "Music PlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +548,7 @@
 				A0ACC2F21EAF28CE006B99BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
