@@ -35,6 +35,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        if let window = self.window {
+            if let vc = window.rootViewController as? MyMusicViewController {
+                if vc.avAudio != nil && vc.avAudio.isPlaying {
+                    NotificationCenter.default.post(name: Notification.Name(rawValue: "continueRotate"), object: nil)
+                }
+            }
+        }
+
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
