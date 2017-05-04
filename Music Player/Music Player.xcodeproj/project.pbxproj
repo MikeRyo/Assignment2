@@ -22,6 +22,9 @@
 		A0ACC2E61EAF28CE006B99BB /* Music_PlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ACC2E51EAF28CE006B99BB /* Music_PlayerUITests.swift */; };
 		A0F91C161EB834F200DBA04E /* alone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0F91C151EB834F200DBA04E /* alone.mp3 */; };
 		A0F91C181EB8352200DBA04E /* love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0F91C171EB8352200DBA04E /* love.mp3 */; };
+		A0FA785F1EBAEB8200A54520 /* Hotel California.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0FA785C1EBAEB8200A54520 /* Hotel California.mp3 */; };
+		A0FA78601EBAEB8200A54520 /* Anywhere.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0FA785D1EBAEB8200A54520 /* Anywhere.mp3 */; };
+		A0FA78611EBAEB8200A54520 /* Let Her Go.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0FA785E1EBAEB8200A54520 /* Let Her Go.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,9 @@
 		A0ACC2E71EAF28CE006B99BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0F91C151EB834F200DBA04E /* alone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alone.mp3; sourceTree = "<group>"; };
 		A0F91C171EB8352200DBA04E /* love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = love.mp3; sourceTree = "<group>"; };
+		A0FA785C1EBAEB8200A54520 /* Hotel California.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hotel California.mp3"; sourceTree = "<group>"; };
+		A0FA785D1EBAEB8200A54520 /* Anywhere.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Anywhere.mp3; sourceTree = "<group>"; };
+		A0FA785E1EBAEB8200A54520 /* Let Her Go.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Let Her Go.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +157,9 @@
 		A0F91C141EB834CC00DBA04E /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				A0FA785C1EBAEB8200A54520 /* Hotel California.mp3 */,
+				A0FA785D1EBAEB8200A54520 /* Anywhere.mp3 */,
+				A0FA785E1EBAEB8200A54520 /* Let Her Go.mp3 */,
 				A0F91C171EB8352200DBA04E /* love.mp3 */,
 				A0F91C151EB834F200DBA04E /* alone.mp3 */,
 			);
@@ -271,6 +280,9 @@
 				A0F91C181EB8352200DBA04E /* love.mp3 in Resources */,
 				A0ACC2CD1EAF28CE006B99BB /* Assets.xcassets in Resources */,
 				A0F91C161EB834F200DBA04E /* alone.mp3 in Resources */,
+				A0FA785F1EBAEB8200A54520 /* Hotel California.mp3 in Resources */,
+				A0FA78601EBAEB8200A54520 /* Anywhere.mp3 in Resources */,
+				A0FA78611EBAEB8200A54520 /* Let Her Go.mp3 in Resources */,
 				A0ACC2CB1EAF28CE006B99BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
