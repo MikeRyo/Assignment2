@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1421" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1421" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="goV-Nt-ZHB">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Music-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Music_Player" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MyMusicViewController" customModule="Music_Player" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -21,22 +20,136 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="63g-27-6Fj">
-                                <rect key="frame" x="93" y="446" width="135" height="31"/>
-                            </slider>
-                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="63g-27-6Fj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="0vS-Bs-d9h"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="63g-27-6Fj" secondAttribute="trailing" constant="30" id="jJh-FY-wqn"/>
-                            <constraint firstItem="63g-27-6Fj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="wrO-uB-R42"/>
-                        </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Music" image="Headphones" selectedImage="Headphones" id="sSS-xS-vcw"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+            <point key="canvasLocation" x="898.125" y="-8.4507042253521121"/>
+        </scene>
+        <!--Radio-->
+        <scene sceneID="sDK-pf-ofd">
+            <objects>
+                <viewController id="fjT-gb-46U" customClass="MyRadioViewController" customModule="Music_Player" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oOw-Rc-f4z"/>
+                        <viewControllerLayoutGuide type="bottom" id="YTC-AU-N8n"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Gnj-3i-aIe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Radio" image="radio" selectedImage="radio" id="Y74-bY-aEg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UuM-V7-cqy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="896.25" y="647.53521126760563"/>
+        </scene>
+        <!--Photo-->
+        <scene sceneID="dmM-oJ-Dw0">
+            <objects>
+                <viewController id="DDj-rP-Cf1" customClass="MyPhotoViewController" customModule="Music_Player" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0bX-hu-7aG"/>
+                        <viewControllerLayoutGuide type="bottom" id="60V-08-Emj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XPY-kL-UcH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Photo" image="photos" selectedImage="photos" id="Fni-tD-1dC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vhm-rL-m8f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1543.125" y="647.53521126760563"/>
+        </scene>
+        <!--Contact Us View Controller-->
+        <scene sceneID="rzP-Tr-qEQ">
+            <objects>
+                <viewController id="cma-O7-urm" customClass="ContactUsViewController" customModule="Music_Player" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XQf-Qf-rD8"/>
+                        <viewControllerLayoutGuide type="bottom" id="yUF-aq-htj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Uja-aD-jHj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="contacts" id="eYg-gp-vHR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nhf-9Y-xS7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2190" y="647.53521126760563"/>
+        </scene>
+        <!--Video-->
+        <scene sceneID="Spj-nw-3oK">
+            <objects>
+                <viewController id="FP9-AN-PqE" customClass="MyPhotoViewController" customModule="Music_Player" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gJC-DJ-ilg"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zqd-8O-S36"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2PE-Cg-2ED">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Video" image="video" selectedImage="video" id="raf-vi-R0W"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Me-Pq-6Mm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1543.125" y="-8.4507042253521121"/>
+        </scene>
+        <!--My Top View Controller-->
+        <scene sceneID="csQ-mD-4Ow">
+            <objects>
+                <viewController id="q7l-yI-eSX" customClass="MyTopViewController" customModule="Music_Player" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DQP-Hz-Vkh"/>
+                        <viewControllerLayoutGuide type="bottom" id="zG7-tw-pv3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yZw-Nu-Hst">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="topRated" id="ASX-XK-x9o"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="weY-Y7-sKb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2188.125" y="-8.4507042253521121"/>
+        </scene>
+        <!--Music Player-->
+        <scene sceneID="bH3-n5-sC4">
+            <objects>
+                <tabBarController title="Music Player" automaticallyAdjustsScrollViewInsets="NO" id="goV-Nt-ZHB" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Sac-hL-yT9">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="sus-t1-Neh"/>
+                        <segue destination="FP9-AN-PqE" kind="relationship" relationship="viewControllers" id="BxL-ei-TqI"/>
+                        <segue destination="q7l-yI-eSX" kind="relationship" relationship="viewControllers" id="48g-C9-zqr"/>
+                        <segue destination="fjT-gb-46U" kind="relationship" relationship="viewControllers" id="hdB-hJ-0wO"/>
+                        <segue destination="DDj-rP-Cf1" kind="relationship" relationship="viewControllers" id="Oex-Uz-IS4"/>
+                        <segue destination="cma-O7-urm" kind="relationship" relationship="viewControllers" id="4kA-bU-3C0"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="koE-ih-Bmt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-101.25" y="319.01408450704224"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Headphones" width="25" height="25"/>
+        <image name="photos" width="26" height="26"/>
+        <image name="radio" width="25" height="25"/>
+        <image name="video" width="24" height="24"/>
+    </resources>
 </document>

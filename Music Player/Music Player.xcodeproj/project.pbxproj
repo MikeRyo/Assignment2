@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42A9EA631EBAE75C00A3B701 /* MyMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9EA621EBAE75C00A3B701 /* MyMusicViewController.swift */; };
+		42A9EA651EBAE77900A3B701 /* MyVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9EA641EBAE77900A3B701 /* MyVideoViewController.swift */; };
+		42A9EA671EBAE78B00A3B701 /* MyTopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9EA661EBAE78B00A3B701 /* MyTopViewController.swift */; };
+		42A9EA691EBAE7A400A3B701 /* MyRadioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9EA681EBAE7A400A3B701 /* MyRadioViewController.swift */; };
+		42A9EA6B1EBAE7B700A3B701 /* MyPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9EA6A1EBAE7B700A3B701 /* MyPhotoViewController.swift */; };
+		42A9EA6D1EBAE7C500A3B701 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9EA6C1EBAE7C500A3B701 /* ContactUsViewController.swift */; };
 		A0ACC2C61EAF28CE006B99BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ACC2C51EAF28CE006B99BB /* AppDelegate.swift */; };
 		A0ACC2C81EAF28CE006B99BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ACC2C71EAF28CE006B99BB /* ViewController.swift */; };
 		A0ACC2CB1EAF28CE006B99BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0ACC2C91EAF28CE006B99BB /* Main.storyboard */; };
@@ -36,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42A9EA621EBAE75C00A3B701 /* MyMusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMusicViewController.swift; sourceTree = "<group>"; };
+		42A9EA641EBAE77900A3B701 /* MyVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyVideoViewController.swift; sourceTree = "<group>"; };
+		42A9EA661EBAE78B00A3B701 /* MyTopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTopViewController.swift; sourceTree = "<group>"; };
+		42A9EA681EBAE7A400A3B701 /* MyRadioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRadioViewController.swift; sourceTree = "<group>"; };
+		42A9EA6A1EBAE7B700A3B701 /* MyPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPhotoViewController.swift; sourceTree = "<group>"; };
+		42A9EA6C1EBAE7C500A3B701 /* ContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
 		A0ACC2C21EAF28CE006B99BB /* Music Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0ACC2C51EAF28CE006B99BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0ACC2C71EAF28CE006B99BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +113,12 @@
 		A0ACC2C41EAF28CE006B99BB /* Music Player */ = {
 			isa = PBXGroup;
 			children = (
+				42A9EA621EBAE75C00A3B701 /* MyMusicViewController.swift */,
+				42A9EA641EBAE77900A3B701 /* MyVideoViewController.swift */,
+				42A9EA661EBAE78B00A3B701 /* MyTopViewController.swift */,
+				42A9EA681EBAE7A400A3B701 /* MyRadioViewController.swift */,
+				42A9EA6A1EBAE7B700A3B701 /* MyPhotoViewController.swift */,
+				42A9EA6C1EBAE7C500A3B701 /* ContactUsViewController.swift */,
 				A0F91C141EB834CC00DBA04E /* Music */,
 				A0ACC2C51EAF28CE006B99BB /* AppDelegate.swift */,
 				A0ACC2C71EAF28CE006B99BB /* ViewController.swift */,
@@ -278,7 +296,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42A9EA691EBAE7A400A3B701 /* MyRadioViewController.swift in Sources */,
+				42A9EA6B1EBAE7B700A3B701 /* MyPhotoViewController.swift in Sources */,
 				A0ACC2C81EAF28CE006B99BB /* ViewController.swift in Sources */,
+				42A9EA6D1EBAE7C500A3B701 /* ContactUsViewController.swift in Sources */,
+				42A9EA671EBAE78B00A3B701 /* MyTopViewController.swift in Sources */,
+				42A9EA631EBAE75C00A3B701 /* MyMusicViewController.swift in Sources */,
+				42A9EA651EBAE77900A3B701 /* MyVideoViewController.swift in Sources */,
 				A0ACC2C61EAF28CE006B99BB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
