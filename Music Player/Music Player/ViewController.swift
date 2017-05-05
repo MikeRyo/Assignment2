@@ -7,13 +7,9 @@
 //  App for assignment 2
 
 import UIKit
-import AVFoundation
 
 
 class ViewController: UIViewController {
-    
-    var avAudioPlayer: AVAudioPlayer!
-    var avPlayer:AVPlayer!
     
     
     
