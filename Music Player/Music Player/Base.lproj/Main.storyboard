@@ -74,7 +74,6 @@
         <!--List Music View Controller-->
         <scene sceneID="xOn-cR-ZvN">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vgK-PT-SdV" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="qXX-Ja-MoL" customClass="ListMusicViewController" customModule="Music_Player" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lq7-lv-8nV"/>
@@ -104,7 +103,7 @@
                                         <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sjj-h4-Qqo" id="7YW-9J-swv">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -122,6 +121,7 @@
                         <outlet property="myTableView" destination="VPa-Rp-NGC" id="k74-Zc-fKl"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vgK-PT-SdV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1547" y="-1246"/>
         </scene>
@@ -207,7 +207,7 @@
         <!--Video-->
         <scene sceneID="Spj-nw-3oK">
             <objects>
-                <viewController id="FP9-AN-PqE" customClass="MyPhotoViewController" customModule="Music_Player" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="FP9-AN-PqE" customClass="MyVideoViewController" customModule="Music_Player" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gJC-DJ-ilg"/>
                         <viewControllerLayoutGuide type="bottom" id="Zqd-8O-S36"/>
@@ -215,13 +215,23 @@
                     <view key="view" contentMode="scaleToFill" id="2PE-Cg-2ED">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vGD-jT-e3V">
+                                <rect key="frame" x="16" y="54" width="138" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Video" image="video" selectedImage="video" id="raf-vi-R0W"/>
+                    <connections>
+                        <outlet property="HOF" destination="vGD-jT-e3V" id="Kp5-3Y-Ue9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Me-Pq-6Mm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1101" y="-9"/>
+            <point key="canvasLocation" x="1100.625" y="-9.5070422535211261"/>
         </scene>
         <!--My Top View Controller-->
         <scene sceneID="csQ-mD-4Ow">
@@ -245,7 +255,6 @@
         <!--View Controller-->
         <scene sceneID="zWQ-Ts-4zR">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FGE-GL-WIo" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="YZU-d4-frb" customClass="ViewController" customModule="Music_Player" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5OR-Ov-csi"/>
@@ -288,13 +297,13 @@
                         <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FGE-GL-WIo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-904" y="296"/>
         </scene>
         <!--Music Player-->
         <scene sceneID="bH3-n5-sC4">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="koE-ih-Bmt" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tabBarController title="Music Player" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="pageSheet" id="goV-Nt-ZHB" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="Sac-hL-yT9">
@@ -311,6 +320,7 @@
                         <segue destination="cma-O7-urm" kind="relationship" relationship="viewControllers" id="4kA-bU-3C0"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="koE-ih-Bmt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-101.25" y="319.01408450704224"/>
         </scene>

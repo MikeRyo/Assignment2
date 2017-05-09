@@ -10,10 +10,16 @@ import UIKit
 
 class MyVideoViewController: UIViewController {
 
+    @IBOutlet weak var HOF: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        HOF.allowsInlineMediaPlayback = true
+        
+        HOF.loadHTMLString("<iframe width=\"\(HOF.frame.width)\" height=\"\(HOF.frame.height)\" src=\"https://www.youtube.com/embed/ZK2jbHacbbM?ecver=1\" frameborder=\"0\" allowfullscreen></iframe>", baseURL: nil)
     }
 
     override func didReceiveMemoryWarning() {
