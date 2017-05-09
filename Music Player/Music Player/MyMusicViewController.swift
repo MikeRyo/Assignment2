@@ -9,14 +9,15 @@
 import UIKit
 import AVFoundation
 
-class SecondViewController: UIViewController {
+class MyMusicViewController: UIViewController {
     
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var myImageView: UIImageView!
     
-    @IBAction func play(_ sender: Any)
-    {
-        if audioStuffed == true && audioPlayer.isPlaying == false
+    
+    //Play Music
+    @IBAction func play(_ sender: Any) {
+      if audioStuffed == true && audioPlayer.isPlaying == false
         {
             audioPlayer.play()
         }
@@ -30,8 +31,10 @@ class SecondViewController: UIViewController {
         }
     }
     
-    @IBAction func prev(_ sender: Any)
-    {
+    
+    //Previous Music
+    @IBAction func prev(_ sender: Any) {
+  
         if thisSong != 0 && audioStuffed == true
         {
             playThis(thisOne: songs[thisSong-1])
@@ -44,8 +47,8 @@ class SecondViewController: UIViewController {
         }
     }
     
-    @IBAction func next(_ sender: Any)
-    {
+    @IBAction func next(_ sender: Any) {
+ 
         if thisSong < songs.count-1 && audioStuffed == true
         {
             playThis(thisOne: songs[thisSong+1])
@@ -83,7 +86,7 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        label.text = songs[thisSong]
+        //label.text = songs[thisSong]
     }
     
     override func didReceiveMemoryWarning() {
