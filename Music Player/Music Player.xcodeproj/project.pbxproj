@@ -17,7 +17,7 @@
 		A09172FF1EC59724009A88DD /* See You Again.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A09172FA1EC59724009A88DD /* See You Again.mp3 */; };
 		A09173001EC59724009A88DD /* In The Air Tonight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A09172FB1EC59724009A88DD /* In The Air Tonight.mp3 */; };
 		A09173011EC59724009A88DD /* Just The Way You Are .mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A09172FC1EC59724009A88DD /* Just The Way You Are .mp3 */; };
-		A09173021EC59724009A88DD /* Somebody's Love mp3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A09172FD1EC59724009A88DD /* Somebody's Love mp3.mp3 */; };
+		A09173021EC59724009A88DD /* Somebody's Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A09172FD1EC59724009A88DD /* Somebody's Love.mp3 */; };
 		A09173031EC59724009A88DD /* As Long As You Love Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A09172FE1EC59724009A88DD /* As Long As You Love Me.mp3 */; };
 		A0ACC2C61EAF28CE006B99BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ACC2C51EAF28CE006B99BB /* AppDelegate.swift */; };
 		A0ACC2C81EAF28CE006B99BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ACC2C71EAF28CE006B99BB /* ViewController.swift */; };
@@ -63,7 +63,7 @@
 		A09172FA1EC59724009A88DD /* See You Again.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "See You Again.mp3"; sourceTree = "<group>"; };
 		A09172FB1EC59724009A88DD /* In The Air Tonight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "In The Air Tonight.mp3"; sourceTree = "<group>"; };
 		A09172FC1EC59724009A88DD /* Just The Way You Are .mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Just The Way You Are .mp3"; sourceTree = "<group>"; };
-		A09172FD1EC59724009A88DD /* Somebody's Love mp3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Somebody's Love mp3.mp3"; sourceTree = "<group>"; };
+		A09172FD1EC59724009A88DD /* Somebody's Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Somebody's Love.mp3"; sourceTree = "<group>"; };
 		A09172FE1EC59724009A88DD /* As Long As You Love Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "As Long As You Love Me.mp3"; sourceTree = "<group>"; };
 		A0ACC2C21EAF28CE006B99BB /* Music Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0ACC2C51EAF28CE006B99BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -181,7 +181,7 @@
 				A09172FA1EC59724009A88DD /* See You Again.mp3 */,
 				A09172FB1EC59724009A88DD /* In The Air Tonight.mp3 */,
 				A09172FC1EC59724009A88DD /* Just The Way You Are .mp3 */,
-				A09172FD1EC59724009A88DD /* Somebody's Love mp3.mp3 */,
+				A09172FD1EC59724009A88DD /* Somebody's Love.mp3 */,
 				A09172FE1EC59724009A88DD /* As Long As You Love Me.mp3 */,
 				A0F91C171EB8352200DBA04E /* love.mp3 */,
 				A0F91C151EB834F200DBA04E /* alone.mp3 */,
@@ -317,7 +317,7 @@
 				A0FA78701EBB0FD200A54520 /* Drag Me Down.mp3 in Resources */,
 				A09173011EC59724009A88DD /* Just The Way You Are .mp3 in Resources */,
 				A0F91C161EB834F200DBA04E /* alone.mp3 in Resources */,
-				A09173021EC59724009A88DD /* Somebody's Love mp3.mp3 in Resources */,
+				A09173021EC59724009A88DD /* Somebody's Love.mp3 in Resources */,
 				A0FA785F1EBAEB8200A54520 /* Hotel California.mp3 in Resources */,
 				A0FA78601EBAEB8200A54520 /* Anywhere.mp3 in Resources */,
 				A09173031EC59724009A88DD /* As Long As You Love Me.mp3 in Resources */,
