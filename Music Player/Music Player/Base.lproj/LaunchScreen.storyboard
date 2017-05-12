@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,20 +22,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="MR Music" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jkg-N9-JVP">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MR Music" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jkg-N9-JVP">
                                 <rect key="frame" x="117" y="336" width="87" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="I8O-Cq-gCm"/>
+                                    <constraint firstAttribute="width" constant="87" id="jeI-zF-5R7"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="DS8-I4-qS7">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="DS8-I4-qS7">
                                 <rect key="frame" x="68" y="170" width="185" height="147"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="DS8-I4-qS7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="lYB-XY-I7C"/>
-                            <constraint firstItem="jkg-N9-JVP" firstAttribute="centerX" secondItem="DS8-I4-qS7" secondAttribute="centerX" id="nit-zS-hIq"/>
+                            <constraint firstItem="DS8-I4-qS7" firstAttribute="centerX" secondItem="jkg-N9-JVP" secondAttribute="centerX" id="5ZM-6K-nDW"/>
+                            <constraint firstItem="DS8-I4-qS7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="9tH-dS-BTv"/>
+                            <constraint firstItem="DS8-I4-qS7" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="52" id="J5X-Np-Jmf"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="jkg-N9-JVP" secondAttribute="bottom" constant="211" id="dnY-yd-jfX"/>
+                            <constraint firstItem="DS8-I4-qS7" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="150" id="dsR-7q-drA"/>
+                            <constraint firstItem="jkg-N9-JVP" firstAttribute="top" secondItem="DS8-I4-qS7" secondAttribute="bottom" constant="19" id="ecj-Hx-rcv"/>
                         </constraints>
                     </view>
                 </viewController>

@@ -46,7 +46,7 @@
                                     <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kvp-ER-nxh"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="wallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="xxN-bY-dCB">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="image2" translatesAutoresizingMaskIntoConstraints="NO" id="xxN-bY-dCB">
                                 <rect key="frame" x="40" y="145" width="240" height="176"/>
                             </imageView>
                             <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="hh8-ek-vVh">
@@ -143,7 +143,7 @@
                                         <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sjj-h4-Qqo" id="7YW-9J-swv">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -198,25 +198,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="Sv4-7w-IdY">
-                                <rect key="frame" x="0.0" y="115" width="102" height="94"/>
+                                <rect key="frame" x="0.0" y="71" width="102" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="DP8-ss-szy">
-                                <rect key="frame" x="110" y="115" width="102" height="94"/>
+                                <rect key="frame" x="109" y="71" width="102" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="RnV-zJ-nhD">
-                                <rect key="frame" x="220" y="115" width="100" height="94"/>
+                                <rect key="frame" x="220" y="71" width="100" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Photo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aij-l0-Uc7">
-                                <rect key="frame" x="16" y="72" width="71" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <color key="shadowColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -237,13 +229,25 @@
                     <view key="view" contentMode="scaleToFill" id="Uja-aD-jHj">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Contact" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdW-L6-DY7">
+                                <rect key="frame" x="0.0" y="28" width="88" height="26"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gdW-L6-DY7" firstAttribute="top" secondItem="XQf-Qf-rD8" secondAttribute="bottom" constant="8" id="0ZT-9g-ij3"/>
+                            <constraint firstItem="gdW-L6-DY7" firstAttribute="leading" secondItem="Uja-aD-jHj" secondAttribute="leading" id="r8V-Kc-SxG"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="contacts" id="eYg-gp-vHR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nhf-9Y-xS7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1793" y="979"/>
+            <point key="canvasLocation" x="1792.5" y="978.16901408450701"/>
         </scene>
         <!--Video-->
         <scene sceneID="Spj-nw-3oK">
@@ -408,7 +412,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t0m-1i-0iv">
                                 <rect key="frame" x="0.0" y="184" width="320" height="261"/>
-                                <state key="normal" title="Button" image="wallpaper"/>
+                                <state key="normal" title="Button" image="logo"/>
                                 <connections>
                                     <segue destination="goV-Nt-ZHB" kind="show" id="Zug-0f-L4z"/>
                                 </connections>
@@ -466,6 +470,8 @@
         <image name="ic_next_song" width="20" height="28"/>
         <image name="ic_play" width="60" height="60"/>
         <image name="ic_prev_song" width="20" height="28"/>
+        <image name="image2" width="189" height="266"/>
+        <image name="logo" width="600" height="600"/>
         <image name="photos" width="26" height="26"/>
         <image name="radio" width="25" height="25"/>
         <image name="video" width="24" height="24"/>
