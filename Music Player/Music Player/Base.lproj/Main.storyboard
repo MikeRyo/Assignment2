@@ -341,6 +341,18 @@
                     <tabBarItem key="tabBarItem" title="Video" image="video" selectedImage="video" id="raf-vi-R0W"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="3000"/>
+                    <connections>
+                        <outlet property="AW" destination="hEf-S4-78u" id="Gk3-EE-dMq"/>
+                        <outlet property="BA" destination="1VU-cw-5Nq" id="zQE-bW-kCn"/>
+                        <outlet property="COL" destination="2Lh-ay-zWP" id="I5T-r5-CzV"/>
+                        <outlet property="GG" destination="zeh-9k-NUu" id="spy-Dn-6wl"/>
+                        <outlet property="ITAT" destination="HFy-rL-44Y" id="TYf-Ac-5CQ"/>
+                        <outlet property="NB" destination="z88-Zu-AuY" id="RZ6-Ni-yEa"/>
+                        <outlet property="P" destination="CER-Dm-LNt" id="kVg-no-fWM"/>
+                        <outlet property="SL" destination="tbl-24-Ut7" id="dH2-g8-CLc"/>
+                        <outlet property="SOY" destination="fZ8-SB-cXc" id="jSM-vW-htQ"/>
+                        <outlet property="SYA" destination="18Z-N4-Ucc" id="LC2-ud-YD0"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="2566.875" y="-201.7605633802817"/>

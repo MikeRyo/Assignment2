@@ -34,7 +34,7 @@ class MyVideoViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        /*
+        
         //See you again
         getSYA(VideoCode: "RgKAFK5djSk")
         
@@ -64,7 +64,7 @@ class MyVideoViewController: UIViewController {
         
         //Body Ache
         getBA(VideoCode: "LbqcXnTt-7o")
-        */
+       
     }
 
     override func didReceiveMemoryWarning() {
@@ -72,7 +72,7 @@ class MyVideoViewController: UIViewController {
         // Dispose of any resources that can be recreated.
         
     }
-    /*
+    
     func getSYA(VideoCode: String)
     {
         let url = URL(string: "https://www.youtube.com/embed/\(VideoCode)")
@@ -132,5 +132,5 @@ class MyVideoViewController: UIViewController {
         let url = URL(string: "https://www.youtube.com/embed/\(VideoCode)")
         BA.loadRequest(URLRequest(url: url!))
     }
- */
+ 
 }
