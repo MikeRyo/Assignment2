@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Music Player/MyVideoViewController.swift"
+            timestampString = "516267723.544553"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "MyVideoViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Music_Player.MyVideoViewController.P.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIWebView&gt;"
+                  moduleName = "Music Player"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mqhuynh/Desktop/Assignment2/Music%20Player/Music%20Player/MyVideoViewController.swift"
+                  timestampString = "516267554.54251"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Music_Player.MyVideoViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Music_Player.MyVideoViewController"
+                  moduleName = "Music Player"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mqhuynh/Desktop/Assignment2/Music%20Player/Music%20Player/MyVideoViewController.swift"
+                  timestampString = "516267554.543699"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "233">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Music_Player.MyVideoViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Music_Player.MyVideoViewController&gt;"
+                  moduleName = "Music Player"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mqhuynh/Desktop/Assignment2/Music%20Player/Music%20Player/MyVideoViewController.swift"
+                  timestampString = "516267554.544723"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "150">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
