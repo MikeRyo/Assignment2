@@ -30,6 +30,8 @@ class MyVideoViewController: UIViewController {
     
     @IBOutlet weak var BA: UIWebView!
     
+    @IBOutlet weak var HT: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -41,7 +43,7 @@ class MyVideoViewController: UIViewController {
         //In the air tonight
         getITAT(videoCode: "ylITtfio9Mg")
         
-        //Passenger
+        //Let Her Go
         getP(VideoCode: "RBumgq5yVrA")
         
         //Napal Baji
@@ -64,6 +66,9 @@ class MyVideoViewController: UIViewController {
         
         //Body Ache
         getBA(VideoCode: "LbqcXnTt-7o")
+        
+        //Heathens
+        getHT(VideoCode: "UprcpdwuwCg")
         
     }
 
@@ -131,5 +136,11 @@ class MyVideoViewController: UIViewController {
     {
         let url = URL(string: "https://www.youtube.com/embed/\(VideoCode)")
         BA.loadRequest(URLRequest(url: url!))
+    }
+    
+    func getHT(VideoCode: String)
+    {
+        let url = URL(string: "https://www.youtube.com/embed/\(VideoCode)")
+        HT.loadRequest(URLRequest(url: url!))
     }
 }
