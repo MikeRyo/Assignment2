@@ -143,7 +143,7 @@
                                         <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sjj-h4-Qqo" id="7YW-9J-swv">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -348,12 +348,12 @@
                         <outlet property="AW" destination="7l6-Zt-4fG" id="d07-hM-S1R"/>
                         <outlet property="BA" destination="A7i-1a-AHs" id="IRE-bq-pzI"/>
                         <outlet property="COL" destination="EIu-Uz-Ih0" id="No1-T6-6Xf"/>
+                        <outlet property="FADED" destination="yfi-id-xX9" id="gbw-uO-e0X"/>
                         <outlet property="GG" destination="rpO-B1-v6A" id="Rse-U3-6sJ"/>
                         <outlet property="ITAT" destination="ofR-OW-Y9f" id="3Kt-fi-1K5"/>
                         <outlet property="NB" destination="UNN-R2-wZI" id="pkP-E6-vf9"/>
                         <outlet property="SL" destination="UEp-bm-UBy" id="Sjn-4G-VcY"/>
                         <outlet property="SOY" destination="cWB-Ry-u0k" id="wzJ-kk-Wus"/>
-                        <outlet property="SYA" destination="yfi-id-xX9" id="743-Rf-k3R"/>
                         <outlet property="p" destination="j6S-vv-AkO" id="nPv-NK-b5T"/>
                     </connections>
                 </viewController>

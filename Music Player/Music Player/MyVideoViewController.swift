@@ -10,7 +10,7 @@ import UIKit
 
 class MyVideoViewController: UIViewController {
 
-    @IBOutlet weak var SYA: UIWebView!
+    @IBOutlet weak var FADED: UIWebView!
     
     @IBOutlet weak var ITAT: UIWebView!
     
@@ -35,8 +35,8 @@ class MyVideoViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        //See you again
-        getSYA(VideoCode: "RgKAFK5djSk")
+        //Faded
+        getF(VideoCode: "60ItHLz5WEA")
         
         //In the air tonight
         getITAT(videoCode: "ylITtfio9Mg")
@@ -73,10 +73,10 @@ class MyVideoViewController: UIViewController {
         
     }
     
-    func getSYA(VideoCode: String)
+    func getF(VideoCode: String)
     {
         let url = URL(string: "https://www.youtube.com/embed/\(VideoCode)")
-        SYA.loadRequest(URLRequest(url: url!))
+        FADED.loadRequest(URLRequest(url: url!))
     }
     
     func getITAT(videoCode: String)
