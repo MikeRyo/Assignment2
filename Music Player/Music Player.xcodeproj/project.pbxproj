@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		42A9EA631EBAE75C00A3B701 /* MyMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9EA621EBAE75C00A3B701 /* MyMusicViewController.swift */; };
 		42A9EA651EBAE77900A3B701 /* MyVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9EA641EBAE77900A3B701 /* MyVideoViewController.swift */; };
-		42A9EA671EBAE78B00A3B701 /* MyTopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9EA661EBAE78B00A3B701 /* MyTopViewController.swift */; };
 		42A9EA691EBAE7A400A3B701 /* MyRadioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9EA681EBAE7A400A3B701 /* MyRadioViewController.swift */; };
 		42A9EA6B1EBAE7B700A3B701 /* MyPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9EA6A1EBAE7B700A3B701 /* MyPhotoViewController.swift */; };
 		42A9EA6D1EBAE7C500A3B701 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9EA6C1EBAE7C500A3B701 /* ContactUsViewController.swift */; };
@@ -59,7 +58,6 @@
 /* Begin PBXFileReference section */
 		42A9EA621EBAE75C00A3B701 /* MyMusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyMusicViewController.swift; path = "Music Player/MyMusicViewController.swift"; sourceTree = SOURCE_ROOT; };
 		42A9EA641EBAE77900A3B701 /* MyVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyVideoViewController.swift; sourceTree = "<group>"; };
-		42A9EA661EBAE78B00A3B701 /* MyTopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTopViewController.swift; sourceTree = "<group>"; };
 		42A9EA681EBAE7A400A3B701 /* MyRadioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRadioViewController.swift; sourceTree = "<group>"; };
 		42A9EA6A1EBAE7B700A3B701 /* MyPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPhotoViewController.swift; sourceTree = "<group>"; };
 		42A9EA6C1EBAE7C500A3B701 /* ContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
@@ -146,7 +144,6 @@
 				A0FA78731EBB1B3B00A54520 /* ViewMusic */,
 				A0ACC2C71EAF28CE006B99BB /* ViewController.swift */,
 				42A9EA641EBAE77900A3B701 /* MyVideoViewController.swift */,
-				42A9EA661EBAE78B00A3B701 /* MyTopViewController.swift */,
 				42A9EA681EBAE7A400A3B701 /* MyRadioViewController.swift */,
 				42A9EA6A1EBAE7B700A3B701 /* MyPhotoViewController.swift */,
 				42A9EA6C1EBAE7C500A3B701 /* ContactUsViewController.swift */,
@@ -368,7 +365,6 @@
 				A0ACC2C81EAF28CE006B99BB /* ViewController.swift in Sources */,
 				A007AA1B1EBC685600338A82 /* ListMusicViewController.swift in Sources */,
 				42A9EA6D1EBAE7C500A3B701 /* ContactUsViewController.swift in Sources */,
-				42A9EA671EBAE78B00A3B701 /* MyTopViewController.swift in Sources */,
 				42A9EA631EBAE75C00A3B701 /* MyMusicViewController.swift in Sources */,
 				42A9EA651EBAE77900A3B701 /* MyVideoViewController.swift in Sources */,
 				A0ACC2C61EAF28CE006B99BB /* AppDelegate.swift in Sources */,

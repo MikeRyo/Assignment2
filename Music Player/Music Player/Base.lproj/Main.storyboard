@@ -446,25 +446,6 @@
             </objects>
             <point key="canvasLocation" x="2566.875" y="-201.7605633802817"/>
         </scene>
-        <!--Top Music-->
-        <scene sceneID="csQ-mD-4Ow">
-            <objects>
-                <viewController id="q7l-yI-eSX" customClass="MyTopViewController" customModule="Music_Player" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="DQP-Hz-Vkh"/>
-                        <viewControllerLayoutGuide type="bottom" id="zG7-tw-pv3"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="yZw-Nu-Hst">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Top Music" image="Christmas Star-50" selectedImage="Christmas Star-50" id="ASX-XK-x9o"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="weY-Y7-sKb" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1793" y="62"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="zWQ-Ts-4zR">
             <objects>
@@ -539,7 +520,6 @@
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="sus-t1-Neh"/>
                         <segue destination="FP9-AN-PqE" kind="relationship" relationship="viewControllers" id="BxL-ei-TqI"/>
-                        <segue destination="q7l-yI-eSX" kind="relationship" relationship="viewControllers" id="48g-C9-zqr"/>
                         <segue destination="fjT-gb-46U" kind="relationship" relationship="viewControllers" id="hdB-hJ-0wO"/>
                         <segue destination="DDj-rP-Cf1" kind="relationship" relationship="viewControllers" id="Oex-Uz-IS4"/>
                         <segue destination="cma-O7-urm" kind="relationship" relationship="viewControllers" id="4kA-bU-3C0"/>
@@ -551,7 +531,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Christmas Star-50" width="25" height="25"/>
         <image name="Headphones" width="25" height="25"/>
         <image name="ic_next_song" width="20" height="28"/>
         <image name="ic_play" width="60" height="60"/>
