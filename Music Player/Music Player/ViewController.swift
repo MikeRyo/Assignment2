@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         let xCoordinate = arc4random() % UInt32(self.view.bounds.width)
         
         let btn = UIButton(frame: CGRect(x: Int(xCoordinate), y: 60, width: 50, height: 50))
-        btn.setImage(UIImage(named: "multiple"), for: .normal)
+        btn.setImage(UIImage(named: "snowflake"), for: .normal)
         btn.addTarget(self, action: #selector(self.didPopBalloons(sender:)), for: .touchUpInside)
         self.view.addSubview(btn)
         

@@ -446,7 +446,7 @@
             </objects>
             <point key="canvasLocation" x="2566.875" y="-201.7605633802817"/>
         </scene>
-        <!--My Top View Controller-->
+        <!--Top Music-->
         <scene sceneID="csQ-mD-4Ow">
             <objects>
                 <viewController id="q7l-yI-eSX" customClass="MyTopViewController" customModule="Music_Player" customModuleProvider="target" sceneMemberID="viewController">
@@ -459,7 +459,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="topRated" id="ASX-XK-x9o"/>
+                    <tabBarItem key="tabBarItem" title="Top Music" image="Christmas Star-50" selectedImage="Christmas Star-50" id="ASX-XK-x9o"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="weY-Y7-sKb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -551,6 +551,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Christmas Star-50" width="25" height="25"/>
         <image name="Headphones" width="25" height="25"/>
         <image name="ic_next_song" width="20" height="28"/>
         <image name="ic_play" width="60" height="60"/>
@@ -563,6 +564,6 @@
         <image name="wallpaper" width="1920" height="1200"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Zug-0f-L4z"/>
+        <segue reference="khh-k6-nQ4"/>
     </inferredMetricsTieBreakers>
 </document>
