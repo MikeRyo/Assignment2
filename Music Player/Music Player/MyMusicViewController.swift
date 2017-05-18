@@ -115,7 +115,7 @@ class MyMusicViewController: UIViewController {
             timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(changeSliderValueFollowPlayerCurTime), userInfo: nil, repeats: true)
             
             //catch event of music
-            //audioPlayer.delegate = self
+            audioPlayer.delegate = self
             
             audioPlayer.play()
             
