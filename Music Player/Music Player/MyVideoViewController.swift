@@ -24,13 +24,13 @@ class MyVideoViewController: UIViewController {
     
     @IBOutlet weak var AW: UIWebView!
     
-    @IBOutlet weak var GG: UIWebView!
+    @IBOutlet weak var PS: UIWebView!
     
-    @IBOutlet weak var SOY: UIWebView!
+    @IBOutlet weak var W: UIWebView!
     
     @IBOutlet weak var BA: UIWebView!
     
-    @IBOutlet weak var HT: UIWebView!
+    @IBOutlet weak var A: UIWebView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -58,17 +58,17 @@ class MyVideoViewController: UIViewController {
         //Anywhere
         getAW(VideoCode: "cb5PalnCrhY")
         
-        //Galway Girl
-        getGG(VideoCode: "87gWaABqGYs")
+        //Party Shaker
+        getPS(VideoCode: "8sPj0Ic8KQ8")
         
-        //Shape of you
-        getSOY(VideoCode: "JGwWNGJdvx8")
+        //W
+        getW(VideoCode: "NwL98zzdEXo")
         
         //Body Ache
         getBA(VideoCode: "LbqcXnTt-7o")
         
-        //Heathens
-        getHT(VideoCode: "UprcpdwuwCg")
+        //Alone
+        getA(VideoCode: "ALZHF5UqnU4")
         
     }
 
@@ -120,16 +120,16 @@ class MyVideoViewController: UIViewController {
         AW.loadRequest(URLRequest(url: url!))
     }
     
-    func getGG(VideoCode: String)
+    func getPS(VideoCode: String)
     {
         let url = URL(string: "https://www.youtube.com/embed/\(VideoCode)")
-        GG.loadRequest(URLRequest(url: url!))
+        PS.loadRequest(URLRequest(url: url!))
     }
     
-    func getSOY(VideoCode: String)
+    func getW(VideoCode: String)
     {
         let url = URL(string: "https://www.youtube.com/embed/\(VideoCode)")
-        SOY.loadRequest(URLRequest(url: url!))
+        W.loadRequest(URLRequest(url: url!))
     }
     
     func getBA(VideoCode: String)
@@ -138,9 +138,9 @@ class MyVideoViewController: UIViewController {
         BA.loadRequest(URLRequest(url: url!))
     }
     
-    func getHT(VideoCode: String)
+    func getA(VideoCode: String)
     {
         let url = URL(string: "https://www.youtube.com/embed/\(VideoCode)")
-        HT.loadRequest(URLRequest(url: url!))
+        A.loadRequest(URLRequest(url: url!))
     }
 }

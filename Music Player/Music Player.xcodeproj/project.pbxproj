@@ -12,7 +12,6 @@
 		42A9EA691EBAE7A400A3B701 /* MyRadioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9EA681EBAE7A400A3B701 /* MyRadioViewController.swift */; };
 		42A9EA6B1EBAE7B700A3B701 /* MyPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9EA6A1EBAE7B700A3B701 /* MyPhotoViewController.swift */; };
 		42A9EA6D1EBAE7C500A3B701 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9EA6C1EBAE7C500A3B701 /* ContactUsViewController.swift */; };
-		42B602E71ECD216900F0414E /* MyPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B602E61ECD216900F0414E /* MyPhotoCollectionViewCell.swift */; };
 		A007AA1B1EBC685600338A82 /* ListMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A007AA1A1EBC685600338A82 /* ListMusicViewController.swift */; };
 		A09172FF1EC59724009A88DD /* See You Again.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A09172FA1EC59724009A88DD /* See You Again.mp3 */; };
 		A09173001EC59724009A88DD /* In The Air Tonight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A09172FB1EC59724009A88DD /* In The Air Tonight.mp3 */; };
@@ -23,6 +22,7 @@
 		A091730B1EC5A6C2009A88DD /* In Case You Forgot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A091730A1EC5A6C2009A88DD /* In Case You Forgot.mp3 */; };
 		A091730D1EC5A6C9009A88DD /* Find My Way Home.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A091730C1EC5A6C9009A88DD /* Find My Way Home.mp3 */; };
 		A091730F1EC5A6DA009A88DD /* Fingers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A091730E1EC5A6DA009A88DD /* Fingers.mp3 */; };
+		A0987CAB1ECD8A23007B8633 /* Shape.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0987CAA1ECD8A23007B8633 /* Shape.mp3 */; };
 		A0ACC2C61EAF28CE006B99BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ACC2C51EAF28CE006B99BB /* AppDelegate.swift */; };
 		A0ACC2C81EAF28CE006B99BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ACC2C71EAF28CE006B99BB /* ViewController.swift */; };
 		A0ACC2CB1EAF28CE006B99BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0ACC2C91EAF28CE006B99BB /* Main.storyboard */; };
@@ -62,7 +62,6 @@
 		42A9EA681EBAE7A400A3B701 /* MyRadioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRadioViewController.swift; sourceTree = "<group>"; };
 		42A9EA6A1EBAE7B700A3B701 /* MyPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPhotoViewController.swift; sourceTree = "<group>"; };
 		42A9EA6C1EBAE7C500A3B701 /* ContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
-		42B602E61ECD216900F0414E /* MyPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		A007AA1A1EBC685600338A82 /* ListMusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListMusicViewController.swift; sourceTree = "<group>"; };
 		A09172FA1EC59724009A88DD /* See You Again.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "See You Again.mp3"; sourceTree = "<group>"; };
 		A09172FB1EC59724009A88DD /* In The Air Tonight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "In The Air Tonight.mp3"; sourceTree = "<group>"; };
@@ -73,6 +72,7 @@
 		A091730A1EC5A6C2009A88DD /* In Case You Forgot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "In Case You Forgot.mp3"; sourceTree = "<group>"; };
 		A091730C1EC5A6C9009A88DD /* Find My Way Home.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Find My Way Home.mp3"; sourceTree = "<group>"; };
 		A091730E1EC5A6DA009A88DD /* Fingers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fingers.mp3; sourceTree = "<group>"; };
+		A0987CAA1ECD8A23007B8633 /* Shape.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Shape.mp3; sourceTree = "<group>"; };
 		A0ACC2C21EAF28CE006B99BB /* Music Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0ACC2C51EAF28CE006B99BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0ACC2C71EAF28CE006B99BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -148,7 +148,6 @@
 				42A9EA641EBAE77900A3B701 /* MyVideoViewController.swift */,
 				42A9EA681EBAE7A400A3B701 /* MyRadioViewController.swift */,
 				42A9EA6A1EBAE7B700A3B701 /* MyPhotoViewController.swift */,
-				42B602E61ECD216900F0414E /* MyPhotoCollectionViewCell.swift */,
 				42A9EA6C1EBAE7C500A3B701 /* ContactUsViewController.swift */,
 				A0F91C141EB834CC00DBA04E /* Songs */,
 				A0ACC2C51EAF28CE006B99BB /* AppDelegate.swift */,
@@ -193,6 +192,7 @@
 				A091730C1EC5A6C9009A88DD /* Find My Way Home.mp3 */,
 				A09172FD1EC59724009A88DD /* Somebody's Love.mp3 */,
 				A09173081EC5A6BB009A88DD /* Mighty Fine.mp3 */,
+				A0987CAA1ECD8A23007B8633 /* Shape.mp3 */,
 				A091730E1EC5A6DA009A88DD /* Fingers.mp3 */,
 				A09172FE1EC59724009A88DD /* As Long As You Love Me.mp3 */,
 				A0F91C171EB8352200DBA04E /* love.mp3 */,
@@ -329,6 +329,7 @@
 				A09173091EC5A6BB009A88DD /* Mighty Fine.mp3 in Resources */,
 				A0ACC2D01EAF28CE006B99BB /* LaunchScreen.storyboard in Resources */,
 				A091730F1EC5A6DA009A88DD /* Fingers.mp3 in Resources */,
+				A0987CAB1ECD8A23007B8633 /* Shape.mp3 in Resources */,
 				A091730B1EC5A6C2009A88DD /* In Case You Forgot.mp3 in Resources */,
 				A09172FF1EC59724009A88DD /* See You Again.mp3 in Resources */,
 				A0F91C181EB8352200DBA04E /* love.mp3 in Resources */,
@@ -369,7 +370,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				42A9EA691EBAE7A400A3B701 /* MyRadioViewController.swift in Sources */,
-				42B602E71ECD216900F0414E /* MyPhotoCollectionViewCell.swift in Sources */,
 				42A9EA6B1EBAE7B700A3B701 /* MyPhotoViewController.swift in Sources */,
 				A0ACC2C81EAF28CE006B99BB /* ViewController.swift in Sources */,
 				A007AA1B1EBC685600338A82 /* ListMusicViewController.swift in Sources */,
