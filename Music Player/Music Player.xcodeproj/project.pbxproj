@@ -12,6 +12,7 @@
 		42A9EA691EBAE7A400A3B701 /* MyRadioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9EA681EBAE7A400A3B701 /* MyRadioViewController.swift */; };
 		42A9EA6B1EBAE7B700A3B701 /* MyPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9EA6A1EBAE7B700A3B701 /* MyPhotoViewController.swift */; };
 		42A9EA6D1EBAE7C500A3B701 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9EA6C1EBAE7C500A3B701 /* ContactUsViewController.swift */; };
+		42B602E71ECD216900F0414E /* MyPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B602E61ECD216900F0414E /* MyPhotoCollectionViewCell.swift */; };
 		A007AA1B1EBC685600338A82 /* ListMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A007AA1A1EBC685600338A82 /* ListMusicViewController.swift */; };
 		A09172FF1EC59724009A88DD /* See You Again.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A09172FA1EC59724009A88DD /* See You Again.mp3 */; };
 		A09173001EC59724009A88DD /* In The Air Tonight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A09172FB1EC59724009A88DD /* In The Air Tonight.mp3 */; };
@@ -61,6 +62,7 @@
 		42A9EA681EBAE7A400A3B701 /* MyRadioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRadioViewController.swift; sourceTree = "<group>"; };
 		42A9EA6A1EBAE7B700A3B701 /* MyPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPhotoViewController.swift; sourceTree = "<group>"; };
 		42A9EA6C1EBAE7C500A3B701 /* ContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		42B602E61ECD216900F0414E /* MyPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		A007AA1A1EBC685600338A82 /* ListMusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListMusicViewController.swift; sourceTree = "<group>"; };
 		A09172FA1EC59724009A88DD /* See You Again.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "See You Again.mp3"; sourceTree = "<group>"; };
 		A09172FB1EC59724009A88DD /* In The Air Tonight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "In The Air Tonight.mp3"; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				42A9EA641EBAE77900A3B701 /* MyVideoViewController.swift */,
 				42A9EA681EBAE7A400A3B701 /* MyRadioViewController.swift */,
 				42A9EA6A1EBAE7B700A3B701 /* MyPhotoViewController.swift */,
+				42B602E61ECD216900F0414E /* MyPhotoCollectionViewCell.swift */,
 				42A9EA6C1EBAE7C500A3B701 /* ContactUsViewController.swift */,
 				A0F91C141EB834CC00DBA04E /* Songs */,
 				A0ACC2C51EAF28CE006B99BB /* AppDelegate.swift */,
@@ -361,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42A9EA691EBAE7A400A3B701 /* MyRadioViewController.swift in Sources */,
+				42B602E71ECD216900F0414E /* MyPhotoCollectionViewCell.swift in Sources */,
 				42A9EA6B1EBAE7B700A3B701 /* MyPhotoViewController.swift in Sources */,
 				A0ACC2C81EAF28CE006B99BB /* ViewController.swift in Sources */,
 				A007AA1B1EBC685600338A82 /* ListMusicViewController.swift in Sources */,
