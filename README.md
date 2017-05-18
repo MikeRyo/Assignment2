@@ -7,7 +7,7 @@ Unit name: IOS Progamming
 
 Project Name: Music Player App
 
-Team: Mike _ RyO
+Team: Mike_215218807 and RyO_216066307
 
 Created app by Swift3 Xcode
 
