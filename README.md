@@ -1,5 +1,7 @@
 # Assignment2
 Deakin University _ Assignment 2
+Unit code: SIT223
+Unit name: IOS Progamming
 
 Project Name: Music Player App
 
