@@ -243,11 +243,11 @@
                                     <action selector="Play:" destination="fjT-gb-46U" eventType="touchUpInside" id="clH-aJ-noI"/>
                                 </connections>
                             </button>
-                            <pickerView hidden="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2HK-Ed-MCm">
+                            <pickerView hidden="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2HK-Ed-MCm">
                                 <rect key="frame" x="0.0" y="64" width="304" height="195"/>
                             </pickerView>
-                            <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vn0-hV-vF1">
-                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vn0-hV-vF1">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <items>
                                     <navigationItem title="Radio" id="Rsd-oc-fU5"/>
                                 </items>
@@ -259,6 +259,8 @@
                             <constraint firstItem="pXA-je-Isg" firstAttribute="trailing" secondItem="vn0-hV-vF1" secondAttribute="trailing" id="1se-ko-TvN"/>
                             <constraint firstItem="vhH-tt-78L" firstAttribute="top" secondItem="BOQ-MP-IBZ" secondAttribute="bottom" constant="53" id="32e-EY-L6g"/>
                             <constraint firstItem="vhH-tt-78L" firstAttribute="leading" secondItem="vn0-hV-vF1" secondAttribute="leading" id="3X1-8p-Fth"/>
+                            <constraint firstItem="2HK-Ed-MCm" firstAttribute="top" secondItem="vn0-hV-vF1" secondAttribute="bottom" constant="20" id="6h6-Zn-sH4"/>
+                            <constraint firstItem="vn0-hV-vF1" firstAttribute="leading" secondItem="Gnj-3i-aIe" secondAttribute="leading" id="8Gc-nr-vML"/>
                             <constraint firstAttribute="trailing" secondItem="BOQ-MP-IBZ" secondAttribute="trailing" id="9FO-iI-tI6"/>
                             <constraint firstItem="mdm-A1-mWm" firstAttribute="leading" secondItem="Gnj-3i-aIe" secondAttribute="leadingMargin" constant="27" id="CYc-wf-D3m"/>
                             <constraint firstItem="mdm-A1-mWm" firstAttribute="top" secondItem="vhH-tt-78L" secondAttribute="bottom" constant="23" id="DRP-fn-rbr"/>
@@ -272,7 +274,9 @@
                             <constraint firstItem="BOQ-MP-IBZ" firstAttribute="leading" secondItem="Gnj-3i-aIe" secondAttribute="leading" id="meH-VN-Rs6"/>
                             <constraint firstItem="vhH-tt-78L" firstAttribute="baseline" secondItem="jYp-pe-tep" secondAttribute="baseline" id="nvP-QZ-mUk"/>
                             <constraint firstItem="pXA-je-Isg" firstAttribute="trailing" secondItem="BOQ-MP-IBZ" secondAttribute="trailing" id="qDk-Cu-jSV"/>
+                            <constraint firstItem="vn0-hV-vF1" firstAttribute="top" secondItem="Gnj-3i-aIe" secondAttribute="top" id="sMo-JQ-cp5"/>
                             <constraint firstItem="YTC-AU-N8n" firstAttribute="top" secondItem="nBB-no-ffC" secondAttribute="bottom" constant="44" id="tA1-9a-ea6"/>
+                            <constraint firstAttribute="trailing" secondItem="vn0-hV-vF1" secondAttribute="trailing" id="w1V-Hu-4rM"/>
                             <constraint firstItem="jYp-pe-tep" firstAttribute="baseline" secondItem="pXA-je-Isg" secondAttribute="baseline" id="xNA-EC-q7g"/>
                             <constraint firstAttribute="trailingMargin" secondItem="nBB-no-ffC" secondAttribute="trailing" constant="24" id="xQa-Ry-3ZW"/>
                             <constraint firstItem="nBB-no-ffC" firstAttribute="top" secondItem="pXA-je-Isg" secondAttribute="bottom" constant="23" id="zNJ-iJ-PbK"/>
@@ -794,7 +798,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t0m-1i-0iv">
                                 <rect key="frame" x="0.0" y="184" width="320" height="261"/>
-                                <state key="normal" title="Button" image="logo"/>
+                                <state key="normal" title="logo" image="logo"/>
                                 <connections>
                                     <segue destination="goV-Nt-ZHB" kind="show" id="Zug-0f-L4z"/>
                                 </connections>
@@ -879,6 +883,6 @@
         <image name="video" width="24" height="24"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="khh-k6-nQ4"/>
+        <segue reference="Zug-0f-L4z"/>
     </inferredMetricsTieBreakers>
 </document>
