@@ -17,8 +17,8 @@ class MyPhotoViewController: UIViewController , UICollectionViewDelegate, UIColl
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        arrayOfImages = [#imageLiteral(resourceName: "Passenger-1"), #imageLiteral(resourceName: "justin_bieber"), #imageLiteral(resourceName: "One_Republic"), #imageLiteral(resourceName: "one_direction"), #imageLiteral(resourceName: "ed_sheeran"), #imageLiteral(resourceName: "Alan_Walker"), #imageLiteral(resourceName: "marshmello"), #imageLiteral(resourceName: "Adele"), #imageLiteral(resourceName: "TaylorSwift"), #imageLiteral(resourceName: "Jackson"), #imageLiteral(resourceName: "eminem"),#imageLiteral(resourceName: "rihanna")]
-        arrayOfIDs = ["A","B","C","D","E","F","G","H","I","J","K","L"]
+        arrayOfImages = [#imageLiteral(resourceName: "Passenger-1"), #imageLiteral(resourceName: "justin_bieber"), #imageLiteral(resourceName: "One_Republic"), #imageLiteral(resourceName: "one_direction"), #imageLiteral(resourceName: "ed_sheeran"), #imageLiteral(resourceName: "Alan_Walker"), #imageLiteral(resourceName: "marshmello"), #imageLiteral(resourceName: "Adele"), #imageLiteral(resourceName: "TaylorSwift"), #imageLiteral(resourceName: "Jackson"), #imageLiteral(resourceName: "eminem"),#imageLiteral(resourceName: "rihanna"), #imageLiteral(resourceName: "Chris_Brown"), #imageLiteral(resourceName: "selena_gomez"), #imageLiteral(resourceName: "twenty_one_pilots"), #imageLiteral(resourceName: "pitbull"), #imageLiteral(resourceName: "bruno"), #imageLiteral(resourceName: "chain"), #imageLiteral(resourceName: "Charlie_Puth"), #imageLiteral(resourceName: "lmfao"), #imageLiteral(resourceName: "Katy"), #imageLiteral(resourceName: "Adam"), #imageLiteral(resourceName: "florida"), #imageLiteral(resourceName: "david"), #imageLiteral(resourceName: "will-i-am"), #imageLiteral(resourceName: "akon")]
+        arrayOfIDs = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
         
     }
 
