@@ -17,8 +17,8 @@ class MyPhotoViewController: UIViewController , UICollectionViewDelegate, UIColl
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        arrayOfImages = [#imageLiteral(resourceName: "Passenger-1"), #imageLiteral(resourceName: "justin_bieber"), #imageLiteral(resourceName: "One_Republic"), #imageLiteral(resourceName: "one_direction"), #imageLiteral(resourceName: "ed_sheeran"), #imageLiteral(resourceName: "Alan_Walker"), #imageLiteral(resourceName: "marshmello")]
-        arrayOfIDs = ["A","B","C","D","E","F","G"]
+        arrayOfImages = [#imageLiteral(resourceName: "Passenger-1"), #imageLiteral(resourceName: "justin_bieber"), #imageLiteral(resourceName: "One_Republic"), #imageLiteral(resourceName: "one_direction"), #imageLiteral(resourceName: "ed_sheeran"), #imageLiteral(resourceName: "Alan_Walker"), #imageLiteral(resourceName: "marshmello"), #imageLiteral(resourceName: "Adele"), #imageLiteral(resourceName: "TaylorSwift"), #imageLiteral(resourceName: "Jackson"), #imageLiteral(resourceName: "eminem"),#imageLiteral(resourceName: "rihanna")]
+        arrayOfIDs = ["A","B","C","D","E","F","G","H","I","J","K","L"]
         
     }
 
