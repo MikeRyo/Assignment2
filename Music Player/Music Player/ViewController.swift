@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     var animator: UIDynamicAnimator?
     var gameTimer: Timer?
     
+    
+    //Display animation on screen
     func addBalloons( _ : Any)
     {
         

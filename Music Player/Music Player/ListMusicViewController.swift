@@ -29,7 +29,9 @@ class ListMusicViewController: UIViewController, UITableViewDelegate, UITableVie
             cell.textLabel?.text = songs[indexPath.row]
             return cell
         }
-        
+    
+    
+    //get song with array
         func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
         {
             do

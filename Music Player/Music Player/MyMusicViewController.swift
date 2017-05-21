@@ -119,7 +119,7 @@ class MyMusicViewController: UIViewController {
             
             audioPlayer.play()
             
-            //View info at Background
+            //View info song at Background
             
             //View information of Song such as: song name, song singer
             let artwork = MPMediaItemArtwork(image: #imageLiteral(resourceName: "passenger"))
@@ -184,7 +184,7 @@ class MyMusicViewController: UIViewController {
 }
 
 
-//Auto play next song
+//Auto play next song at background
 
 extension MyMusicViewController : AVAudioPlayerDelegate{
     func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
